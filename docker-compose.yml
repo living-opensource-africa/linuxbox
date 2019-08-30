@@ -5,7 +5,7 @@ services:
     ports:
       - "9000:9000"
   janus:
-    image: mcroth/janus
+    image: mcroth/docker-janus
     ports:
       - "8088:8088"
       - "8188:8188"

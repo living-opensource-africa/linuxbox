@@ -1,12 +1,12 @@
 const express = require('express')
 const app = express()
+const path = require('path')
 
-app.set('views', './views')
 app.use(express.static('./public'))
 
 //Routing
 app.use('/', (req, res) => {
-  res.send('Hello World')
+  res.sendFile(path.join(__dirname+'/views/index.html'))
 })
 
 let run_app = app.listen(9000,

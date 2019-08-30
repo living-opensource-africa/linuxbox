@@ -63,12 +63,12 @@ sudo apt install docker docker-compose
 
 ### SPINNING UP LinuxBox
 
-Go to the installation directory, the execute.
+Go to the installation directory, then execute.
 
 ```bash
 git clone https://github.com/living-opensource-zambia/linuxbox.git
 ```
-After the cloning is done, go to the linuxbox directory, the execute:
+After the cloning is done, go to the linuxbox directory, then execute:
 
 ```bash
 cd linuxbox

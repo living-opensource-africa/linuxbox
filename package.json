@@ -4,7 +4,8 @@
   "description": "Remote web terminal with one to many screen sharing (For teaching Linux(cli) to remote users)",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
