@@ -1,0 +1,32 @@
+{
+  "name": "linuxbox",
+  "version": "1.0.0",
+  "description": "Remote web terminal with one to many screen sharing (For teaching Linux(cli) to remote users)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/living-opensource-zambia/linuxbox.git"
+  },
+  "keywords": [
+    "Linux",
+    "Web",
+    "Terminal",
+    "Janus",
+    "Gateway",
+    "Screen",
+    "Sharing",
+    "WebRTC"
+  ],
+  "author": "Living Open Source Foundation Zambia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/living-opensource-zambia/linuxbox/issues"
+  },
+  "homepage": "https://github.com/living-opensource-zambia/linuxbox#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

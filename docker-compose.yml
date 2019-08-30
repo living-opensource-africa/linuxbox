@@ -1,0 +1,18 @@
+version: '3'
+services:
+  screenshare:
+    build: .
+    ports:
+      - "9000:9000"
+  janus:
+    image: mcroth/janus
+    ports:
+      - "8088:8088"
+      - "8188:8188"
+      - "7088:7088"
+      - "10000-10200:10000-10200/udp"
+      - "9002:80"
+  terminal:
+    build: './web_terminal'
+    ports:
+      - "9001:80"
