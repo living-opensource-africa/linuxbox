@@ -11,7 +11,21 @@ These containers are in turn connected by a virtual network creating through the
 
 ## INSTALLATION
 
-To run this build, you need to have docker and docker-compose installed on your machine:
+ To run this build, you need to have docker, docker-compose and janus gateway server installed on your machine:
+
+### INSTALL Janus Gateway
+
+For cross platform installation, Janus can be installed as a snap app on all Linux ditribution that support snaps. For those that dont, please use [Janus Gateway build from Source code](https://github.com/meetecho/janus-gateway).
+
+To use the snap version of janus, make sure you have snap installed:
+[install snap for CentOS](#Janus-CentOS)
+[install snap for Ubuntu](#Janus-Ubuntu)
+
+After installing the snap deamon, then install the janus snap, as follows:
+
+```bash
+sudo snap install janus-gateway
+```
 
 ### DOCKER FOR CentOS(RHEL)
 
@@ -32,6 +46,12 @@ And now you can install docker and docker-compose as:
 ```bash
 sudo yum install docker docker-compose
 ```
+### Janus-CentOS
+
+```bash
+sudo yum install snapd
+```
+
 
 ### DOCKER FOR UBUNTU(DEBIAN)
 
@@ -60,6 +80,13 @@ At this point you can now install docker/docker-compose
 ```bash
 sudo apt install docker docker-compose
 ```
+
+### Janus-Ubuntu
+
+```bash
+sudo apt install snapd
+```
+
 
 ### SPINNING UP LinuxBox
 
@@ -93,5 +120,5 @@ If you have any feature request and/or want to add a few whistles and bells, fee
 To get more information about contributing, please [click here](CONTRIBUTING.md)
 
 #  Happy Coding ...
-### Thanks :)
+### Thanks :joy:
 ### Living Open Source Foundation Zambia
