@@ -18,7 +18,9 @@ These containers are in turn connected by a virtual network creating through the
 For cross platform installation, Janus can be installed as a snap app on all Linux ditribution that support snaps. For those that dont, please use [Janus Gateway build from Source code](https://github.com/meetecho/janus-gateway).
 
 To use the snap version of janus, make sure you have snap installed:
+
 [install snap for CentOS](#Janus-CentOS)
+
 [install snap for Ubuntu](#Janus-Ubuntu)
 
 After installing the snap deamon, then install the janus snap, as follows:
